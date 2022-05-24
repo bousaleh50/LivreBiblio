@@ -1,0 +1,16 @@
+table{
+    border-collapse: collapse;
+    max-width:100vw;
+}
+
+tr, th {
+    max-width: fit-content;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: lightgray;
+}
+  
